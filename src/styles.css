@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --font-size: 18px;
+    --line-height: 1.5;
+    --heading-font: 'Avenir', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --body-font: 'Iowan Old Style', Garamond, Georgia, serif;
+
+    --header-background-color: #014063;
+    --header-color: #fff;
+    --header-color-hover: #9bccfd;
+    --heading-color: #000;
+    --body-color: #3d3d3d;
+    --footer-background-color: #d4d4d4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+html {
+    font-family: var(--body-font);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    color: var(--body-color);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.8rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+ol,
+ul {
+    margin-inline-start: 1rem;
+}
+
+small {
+    font-size: 0.8rem;
+}
+
+body {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--header-background-color);
+    text-align: center;
+
+    menu {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .title {
+        font-family: "Permanent Marker", cursive;
+        font-size: 3rem;
+        color: var(--header-color);
+    }
+
+    menu>a {
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    a {
+        color: var(--header-color);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--header-color-hover);
+        text-decoration: underline;
+    }
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    font-weight: bold;
+    margin-top: auto;
+    padding: 0.5rem;
+    background-color: var(--footer-background-color);
+    text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        margin-inline: 10rem;
+    }
+}

@@ -1,0 +1,15 @@
+---
+layout: base.liquid
+title: Home
+---
+
+<h1>Blog posts</h1>
+
+{% for post in collections.posts reversed %}
+<p>
+    <a href="{{ post.url }}">
+        <h4>{{ post.data.title }}</h4>
+        <time>{{ post.data.date | date: "%B %d, %Y" }}</time>
+    </a>
+</p>
+{% endfor %}
