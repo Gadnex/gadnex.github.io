@@ -70,12 +70,15 @@ h6 {
     font-size: 0.8rem;
 }
 
-p {
+
+p,
+pre {
     margin: 1rem 0;
 }
 
 ol,
 ul {
+    margin-block: 1rem;
     margin-inline-start: 1rem;
 }
 
