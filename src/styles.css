@@ -70,7 +70,6 @@ h6 {
     font-size: 0.8rem;
 }
 
-
 p,
 pre {
     margin: 1rem 0;
@@ -135,6 +134,10 @@ footer {
     padding: 0.5rem;
     background-color: var(--footer-background-color);
     text-align: center;
+}
+
+pre {
+    overflow-x: auto;
 }
 
 @media screen and (min-width: 1440px) {
