@@ -6,7 +6,8 @@ module.exports = function (eleventyConfig) {
         "html",
         "md",
         "jpg",
-        "png"
+        "png",
+        "svg"
     ]);
 
     eleventyConfig.addPassthroughCopy("src/*.css");
