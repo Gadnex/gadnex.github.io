@@ -2,7 +2,7 @@
 title: Software Design and Architecture
 date: 2025-03-26
 "tags": [
-  "boxes-and-lines"
+  "boxes-and-arrows"
 ]
 ---
 

@@ -1,5 +1,5 @@
 # gadnex.github.io
-My Github pages repository for my personal blogging site
+My Github pages repository for my personal blogging site found at https://gadnex.github.io/
 
 ## Installation
 
