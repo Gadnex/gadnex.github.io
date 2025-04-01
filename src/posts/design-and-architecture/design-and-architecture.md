@@ -55,4 +55,4 @@ We want to delay our architectural decisions as long as possible so that we can 
 
 In this post we have looked into the basic definitions of design and architecture and discussed some important grounding concepts about architecture and documentation thereof.
 
-In my next post I want to dive a bit deeper into how the structural nature of architecture should be documented.
+In my [next post](/posts/boxes-and-arrows/) I want to dive a bit deeper into how the structural nature of architecture should be documented.
