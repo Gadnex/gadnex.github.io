@@ -73,7 +73,8 @@ h6 {
 
 p,
 pre,
-blockquote {
+blockquote,
+.handwriting{
     margin: 1rem 0;
 }
 
@@ -156,6 +157,10 @@ blockquote {
         display: block;
         text-align: end;
     }
+}
+
+.handwriting {
+    font-family: "Permanent Marker", cursive;
 }
 
 @media screen and (min-width: 1440px) {
