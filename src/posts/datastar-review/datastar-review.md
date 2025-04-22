@@ -1,6 +1,6 @@
 ---
 title: Datastar Review
-date: 2025-04-06
+date: 2025-05-01
 "tags": [
   "datastar", "hypermedia", "front-end"
 ]
