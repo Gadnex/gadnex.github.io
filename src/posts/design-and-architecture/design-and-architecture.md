@@ -15,7 +15,6 @@ Lastly it will also touch the topic of documentation and how it relates to desig
 ## What is Software Design?
 
 > Software design is the process of conceptualizing how a software system will work before it is implemented or modified. Software design also refers to the direct result of the design process – the concepts of how the software will work which consists of both design documentation and undocumented concepts.
-> 
 > <cite>-- [Wikipedia](https://en.wikipedia.org/wiki/Software_design)</cite>
 
 Whenever we as software developers are thinking about how our code will work, how it is organised or how the resulting software will look and behave, we are in fact busy with design. Design is not confined to the things we decide to document.
