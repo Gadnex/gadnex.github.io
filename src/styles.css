@@ -62,6 +62,7 @@ h4,
 h5,
 h6 {
     max-inline-size: none;
+    padding-block-start: var(--size-3);
 }
 
 p {
@@ -93,6 +94,15 @@ blockquote {
     }
 }
 
+ul,
+ol {
+    padding-block: var(--size-2);
+
+    li {
+        max-inline-size: none;
+    }
+}
+
 img {
     border-radius: var(--size-2);
 }
@@ -101,6 +111,26 @@ code {
     border-radius: var(--size-2);
     margin-block: var(--size-2);
     background-color: var(--gray-3) !important;
+}
+
+table {
+    margin-block: var(--size-2);
+
+    tr {
+        th {
+            text-align: end;
+        }
+
+        td {
+            max-inline-size: none;
+            text-align: start;
+            white-space: nowrap;
+        }
+    }
+}
+
+.job-detail {
+    font-weight: var(--font-weight-9);
 }
 
 @media (prefers-color-scheme: dark) {
