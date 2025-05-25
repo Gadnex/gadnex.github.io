@@ -121,12 +121,34 @@ table {
             text-align: end;
         }
 
+        th.center {
+            text-align: center;
+        }
+
         td {
             max-inline-size: none;
             text-align: start;
             white-space: nowrap;
         }
     }
+}
+
+a[role="button"] {
+    margin-inline-end: var(--size-2);
+    padding: var(--size-2) var(--size-3);
+    background-color: var(--blue-7);
+    border: 2px solid var(--blue-9);
+    border-radius: var(--radius-3);
+    color: var(--gray-1);
+}
+
+a[role="button"]:hover {
+    background-color: var(--blue-5);
+    text-decoration: none;
+}
+
+.alert {
+    color: var(--red-7);
 }
 
 .job-detail {
