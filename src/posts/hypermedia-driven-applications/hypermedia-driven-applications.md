@@ -70,6 +70,7 @@ Finally we have an **&lt;a&gt;** tag styled like a button to refresh the current
     </label>
 </p>
 
+<div class="wrapper">
 <table id="data-table">
     <thead>
     <tr>
@@ -112,7 +113,8 @@ Finally we have an **&lt;a&gt;** tag styled like a button to refresh the current
     </tr>
     </tbody>
 </table>
-<p>
+</div>
+<div>
     <a href="/posts/hypermedia-driven-applications/"
        role="button">
         Refresh with hyperlink
@@ -134,7 +136,7 @@ Finally we have an **&lt;a&gt;** tag styled like a button to refresh the current
        data-on-click__prevent="@get('/hypermedia-data/datastar-data/')">
         Refresh with Datastar
     </a>
-</p>
+</div>
 <script>
   const jsButton = document.getElementById("jsButton");
   jsButton.addEventListener("click", function (evt) {
