@@ -118,7 +118,7 @@ iframe {
 }
 
 .wrapper {
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 table {
