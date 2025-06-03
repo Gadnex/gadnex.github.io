@@ -1,92 +1,6 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-:root {
-    --font-size: 18px;
-    --line-height: 1.5;
-    --heading-font: 'Avenir', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    --body-font: 'Iowan Old Style', Garamond, Georgia, serif;
-
-    --header-background-color: #014063;
-    --header-color: #fff;
-    --header-color-hover: #9bccfd;
-    --heading-color: #000;
-    --body-color: #3d3d3d;
-    --footer-background-color: #d4d4d4;
-    --blockquote-background-color: #e8e2d2;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizelegibility;
-}
-
-html {
-    font-family: var(--body-font);
-    font-size: var(--font-size);
-    line-height: var(--line-height);
-    color: var(--body-color);
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--heading-font);
-    color: var(--heading-color);
-    font-weight: 700;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.6rem;
-}
-
-h4 {
-    font-size: 1.25rem;
-}
-
-h5 {
-    font-size: 1rem;
-}
-
-h6 {
-    font-size: 0.8rem;
-}
-
-p,
-pre,
-blockquote,
-.handwriting{
-    margin: 1rem 0;
-}
-
-ol,
-ul {
-    margin-block: 1rem;
-    margin-inline-start: 1rem;
-}
-
-small {
-    font-size: 0.8rem;
-}
 
 body {
     min-height: 100dvh;
@@ -95,76 +9,190 @@ body {
 }
 
 header {
-    background-color: var(--header-background-color);
+    background-color: var(--blue-11);
     text-align: center;
+    padding-block: var(--size-2);
+
+    .title {
+        font-family: "Permanent Marker", var(--font-sans);
+        font-size: var(--font-size-fluid-3);
+        font-weight: var(--font-weight-9);
+        color: var(--gray-1);
+    }
 
     menu {
         display: flex;
         justify-content: center;
         gap: 2rem;
-    }
 
-    .title {
-        font-family: "Permanent Marker", cursive;
-        font-size: 3rem;
-        color: var(--header-color);
-    }
+        a {
+            font-family: var(--font-sans);
+            font-size: var(--font-size-fluid-1);
+            font-weight: var(--font-weight-5);
+            color: var(--gray-1);
+        }
 
-    menu>a {
-        font-family: sans-serif;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-    }
-
-    a {
-        color: var(--header-color);
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: var(--header-color-hover);
-        text-decoration: underline;
+        a:hover {
+            font-weight: var(--font-weight-6);
+            text-decoration-color: var(--gray-1);
+        }
     }
 }
 
 main {
-    padding: 1rem;
+    flex-grow: 1;
+    width: min(100% - var(--size-6), 80rem);
+    margin-inline: auto;
+    padding-block: var(--font-size-2);
 }
 
 footer {
-    font-weight: bold;
-    margin-top: auto;
-    padding: 0.5rem;
-    background-color: var(--footer-background-color);
     text-align: center;
+    padding-block: var(--size-2);
+    background-color: var(--gray-4);
+    color: var(--gray-9);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-6);
 }
 
-pre {
-    overflow-x: auto;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    max-inline-size: none;
+    padding-block-start: var(--size-3);
+}
+
+p {
+    max-inline-size: none;
+    text-align: justify;
+    padding-block: var(--size-2);
+}
+
+article {
+    margin-block: var(--size-2);
+}
+
+a {
+    color: var(--blue-7);
+}
+
+a:hover {
+    text-decoration-color: var(--blue-7);
 }
 
 blockquote {
-    background-color: var(--blockquote-background-color);
-    padding: 0.5rem;
-    text-align: justify;
-    font-style: italic;
-
-    p {
-        margin: 0;
-    }
+    max-inline-size: none;
+    margin-block: var(--size-2);
 
     cite {
+        border: none;
         display: block;
         text-align: end;
     }
 }
 
-.handwriting {
-    font-family: "Permanent Marker", cursive;
+ul,
+ol {
+    padding-block: var(--size-2);
+
+    li {
+        max-inline-size: none;
+    }
 }
 
-@media screen and (min-width: 1440px) {
-    main {
-        margin-inline: 10rem;
+img {
+    border-radius: var(--size-2);
+}
+
+code {
+    border-radius: var(--size-2);
+    margin-block: var(--size-2);
+    background-color: var(--gray-3) !important;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.wrapper {
+    overflow-x: auto;
+}
+
+table {
+    margin-block: var(--size-2);
+
+    tr {
+        th {
+            text-align: end;
+        }
+
+        th.center {
+            text-align: center;
+        }
+
+        td {
+            max-inline-size: none;
+            text-align: start;
+            white-space: nowrap;
+        }
+    }
+}
+
+a[role="button"] {
+    display: inline-block;
+    margin-block: var(--size-2);
+    margin-inline-end: var(--size-2);
+    padding: var(--size-2) var(--size-3);
+    background-color: var(--blue-7);
+    border: 2px solid var(--blue-9);
+    border-radius: var(--radius-3);
+    color: var(--gray-1);
+}
+
+a[role="button"]:hover {
+    background-color: var(--blue-5);
+    text-decoration: none;
+}
+
+.alert {
+    color: var(--red-7);
+}
+
+.job-detail {
+    font-weight: var(--font-weight-9);
+}
+
+@media (prefers-color-scheme: dark) {
+    header {
+        background-color: var(--blue-7);
+    }
+
+    footer {
+        background-color: var(--gray-10);
+        color: var(--gray-7);
+    }
+
+    a {
+        color: var(--blue-5);
+    }
+
+    code {
+        color: var(--gray-9);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        text-align: start;
+        padding-inline: var(--size-5);
+
+        .title {
+            flex-grow: 1;
+        }
     }
 }

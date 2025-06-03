@@ -21,15 +21,12 @@ In 1997, Kent Beck introduced user stories at the Chrysler C3 project in Detroit
 Below are some definitions of the term user story that closely matches Kent Beck's original intent.
 
 > In software development and product management, a user story is an informal, natural language description of features of a software system. They are written from the perspective of an end user or user of a system, and may be recorded on index cards, Post-it notes, or digitally in specific management software.
->
 > <cite>-- [Wikipedia](https://en.wikipedia.org/wiki/User_story)</cite>
 
 > A user story is an informal, general explanation of a software feature written from the perspective of the end user. Its purpose is to articulate how a software feature will provide value to the customer.
-> 
 > <cite>-- [atlassian.com](https://www.atlassian.com/agile/project-management/user-stories)</cite>
 
-> A user story is a short, simple description of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.
-> 
+> A user story is a short, simple description of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system. 
 > <cite>-- [Mountain Goat Software](https://www.mountaingoatsoftware.com/agile/user-stories)</cite>
 
 User stories are often written in the following form.
@@ -53,7 +50,6 @@ It is however illogical to see a user story as a work item in a plan that is ass
 More recently the definition of a user story has changed significantly in some contexts. Below is a definition of a user story from the Scaled Agile Framework (SAFe).
 
 > A story describes a small piece of functionality that an Agile Team can finish in a few days or less. User stories outline the value to the end user. Enabler stories outline the necessary work of exploration, architecture, infrastructure, and compliance. Each story focuses on a specific behavior that can be developed in incremental steps to offer value to the user or the solution. Keeping stories small ensures they can be completed in a single iteration, allowing every iteration to deliver value.
->
 > <cite>-- [framework.scaledagile.com](https://framework.scaledagile.com/story)</cite>
 
 While the above definition does retain some of the original meaning of a user story, one can see the focus shifting away from the idea of identifying a requirement that will be the topic of a future conversation, and heading towards the idea of a user story being a work item that can be completed in a few days.
@@ -61,7 +57,6 @@ While the above definition does retain some of the original meaning of a user st
 The next paragraph states. 
 
 > SAFe describes four tiers of work items that detail functional system behavior: Epic, Capability, Feature, and Story.
->
 > <cite>-- [framework.scaledagile.com](https://framework.scaledagile.com/story)</cite>
 
 Here we see the idea that user stories are just work items in a specific tier in a project work breakdown structure. SAFe theory describes how *epics* are identified high up in an organisation's management structure. These *epics* are then broken down into *capabilities*, which are assigned to different Agile Release Trains (ART). These *capabilities* are then broken down into *features*, which are assigned to different Scrum teams in the ART. These *features* are then broken down into *user stories*, which are placed on the Scrum team's product backlog and delivered over a number of sprints. The Scrum team may internally divide a *user story* into a set of tasks to deliver the user story, but this is outside the scope of what SAFe theory describes.
