@@ -111,6 +111,7 @@ pre {
     border-radius: var(--size-2);
     padding: var(--size-2);
     margin-block: var(--size-2);
+    overflow-x: auto;
 }
 
 iframe {

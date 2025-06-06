@@ -12,6 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.1",
-    "@shikijs/markdown-it": "^3.5.0"
+    "@shikijs/markdown-it": "^3.6.0"
   }
 }
