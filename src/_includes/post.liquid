@@ -2,7 +2,9 @@
 layout: base.liquid
 ---
 
-<h1>{{title}}</h1>
-<small>{{date | date: "%B %d, %Y"}}</small>
+<hgroup>
+    <h1>{{title}}</h1>
+    <p>{{date | date: "%B %d, %Y"}}</p>
+</hgroup>
 
 {{content}}

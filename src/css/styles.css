@@ -1,0 +1,11 @@
+@import "https://unpkg.com/open-props";
+@import "normalize.css";
+@import "lcars.css";
+
+.post {
+    margin-block: var(--size-3);
+
+    a {
+        font-size: var(--font-size-4);
+    }
+}

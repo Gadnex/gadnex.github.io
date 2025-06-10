@@ -70,7 +70,7 @@ Finally we have an **&lt;a&gt;** tag styled like a button to refresh the current
     </label>
 </p>
 
-<div class="wrapper">
+<div class="overflow-x">
 <table id="data-table">
     <thead>
     <tr>
@@ -156,7 +156,7 @@ console.error('Error fetching:', error);
 </script>
 <script src="https://unpkg.com/htmx.org@2.0.4"></script>
 <script type="module"
-        src="/datastar-v1.0.0-RC8.js">
+        src="/js/datastar-v1.0.0-RC8.js">
 </script>
 
 ### Instructions
