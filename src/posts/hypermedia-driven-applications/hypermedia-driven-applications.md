@@ -155,9 +155,7 @@ console.error('Error fetching:', error);
 }
 </script>
 <script src="https://unpkg.com/htmx.org@2.0.4"></script>
-<script type="module"
-        src="/js/datastar-v1.0.0-RC8.js">
-</script>
+<script type="module" src="/js/datastar.js"></script>
 
 ### Instructions
 

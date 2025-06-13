@@ -1,14 +1,14 @@
 /* LCARS */
 
-@media screen {
+@media screen and (width>=480px) {
     :where(html) {
         --brand-color: light-dark(var(--orange-9), var(--orange-8));
         --brand-color-contrast: light-dark(var(--orange-6), var(--orange-4));
         --brand-color-accent: light-dark(var(--orange-8), var(--orange-7));
-        --lcars-border-radius: var(--size-px-8);
-        --lcars-inner-border-radius: var(--size-px-6);
-        --lcars-border-block-width: var(--size-px-2);
-        --lcars-border-inline-width: var(--size-px-4);
+        --lcars-border-radius: var(--size-px-11);
+        --lcars-inner-border-radius: var(--size-px-8);
+        --lcars-border-block-width: var(--size-px-4);
+        --lcars-border-inline-width: var(--size-px-9);
         --lcars-padding-block: var(--size-1);
         --lcars-padding-inline: var(--size-1);
         --lcars-margin: var(--size-2);
@@ -71,6 +71,14 @@
         color: var(--lcars-anchor-color);
     }
 
+    hgroup {
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
     button,
     input[type=submit],
     a[role=button] {
@@ -97,15 +105,6 @@
         color: light-dark(var(--purple-6), var(--purple-4));
         margin-block: auto;
     }
-}
-
-@media screen and (width>=480px) {
-    :where(html) {
-        --lcars-border-radius: var(--size-px-11);
-        --lcars-inner-border-radius: var(--size-px-8);
-        --lcars-border-block-width: var(--size-px-4);
-        --lcars-border-inline-width: var(--size-px-9);
-    }
 
     body>header {
         position: relative;
@@ -117,11 +116,6 @@
         padding-block: var(--lcars-padding-block);
         padding-inline: var(--lcars-padding-inline);
         margin-inline-start: var(--lcars-margin);
-
-        nav>menu {
-            padding-block: var(--size-3);
-        }
-
     }
 
     body>header:before {
@@ -181,6 +175,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: var(--size-1);
+            padding-block: var(--size-1);
 
             a {
                 display: inline-block;
