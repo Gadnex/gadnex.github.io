@@ -139,6 +139,8 @@ Supported multiple projects, including SARS e@syFile and eFiling, and developed 
 
 Led IT operations for a vehicle transport company, managing outsourced server hosting, VPN, hardware, and cellular data contracts across multiple locations.
 
+<div class="page-break-after"></div> 
+
 <hgroup>
     <h3>Altech Netstar <small>South Africa</small></h3>
     <div>Business Analyst</div>
@@ -215,6 +217,8 @@ Worked on client-facing web applications for major brands like ABSA, Robor Tube,
 - Projects with ACSA and international airports.
 
 <em><strong>Technologies:</strong> ASP, HTML, CSS, Visual Basic 6, Perl, JavaScript, VBScript, MSSQL Server</em>
+
+<div class="page-break-after"></div> 
 
 <hgroup>
     <h3>Africon Engineering <small>South Africa</small></h3>
