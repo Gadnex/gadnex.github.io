@@ -474,6 +474,8 @@
             overflow-x: auto;
             overflow-y: hidden;
             margin-block: var(--size-3);
+            padding: var(--size-2);
+            border-radius: var(--size-3);
 
             code {
                 background-color: transparent;
