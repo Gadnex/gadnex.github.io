@@ -36,7 +36,7 @@ date: 2025-05-14
 - Developed the Netting Administration system for high-value inter-company payments to save clients money on transaction fees and FX conversions.
 - Collaborated in an agile team, sharing responsibilities for testing, deployment, and DevOps pipeline configuration.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, JPA, MSSQL, JMS, Apache Kafka, JUnit, BDD, TypeScript, JavaScript, Lit, Cypress, Docker, Kubernetes, RedHat Openshift, Azure DevOps, Agile, Scrum</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, JPA, MSSQL, JMS, Apache Kafka, JUnit, BDD, TypeScript, JavaScript, Lit, Cypress, Docker, Kubernetes, RedHat Openshift, Azure DevOps, Git, Agile, Scrum</em>
 
 <hgroup>
     <h3>De Volksbank <small>via Eonics</small></h3>
@@ -47,7 +47,7 @@ date: 2025-05-14
 - Built APIs for the distribution partner administration system, enabling flexible management of sales channels.
 - Deployed microservices on OpenShift with Azure DevOps pipelines and Argo CD.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, JPA, PostgreSQL, JUnit, Microservices, Azure DevOps, Argo CD, Docker, Kubernetes, RedHat Openshift, Agile, Scrum</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, JPA, PostgreSQL, JUnit, Microservices, Azure DevOps, Git, Argo CD, Docker, Kubernetes, RedHat Openshift, Agile, Scrum</em>
 
 <hgroup>
     <h3>Uitvoeringsinstituut Werknemersverzekeringen (UWV) <small>via Capgemini</small></h3>
@@ -58,7 +58,7 @@ date: 2025-05-14
 - Developed integration services between UWV and IND using SOAP, REST, and JMS queues.
 - Joined to help the team recover from missed deadlines, successfully addressing agile adoption and communication challenges. By project end, the team was ahead of schedule compared to other teams.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, IBM MQ, JMS, JUnit, XL Deploy, Azure DevOps, Docker, Agile, Scrum</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, IBM MQ, JMS, JUnit, XL Deploy, Azure DevOps, Git, Docker, Agile, Scrum</em>
 
 <hgroup>
     <h3>Logius <small>via Capgemini</small></h3>
@@ -69,7 +69,7 @@ date: 2025-05-14
 - Led the architecture for migrating the Digipoort system to a microservices architecture with comprehensive observability.
 - Developed a proof of concept for traceability across distributed systems.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, Prometheus, Grafana, Jaeger Tracing, ElasticSearch, Kibana, Apache Kafka, MinIO, Docker, Rancher, Kubernetes, Microservices, Agile, Scrum, SAFe</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, Prometheus, Grafana, Jaeger Tracing, ElasticSearch, Kibana, Apache Kafka, MinIO, Docker, Rancher, Kubernetes, Microservices, Git, GitLab, Agile, Scrum, SAFe</em>
 
 <div class="page-break-after"></div>
 
@@ -82,7 +82,7 @@ date: 2025-05-14
 - Modernized SALOG logistics system from Java Swing UI to REST API backend with Angular front-end.
 - Ensured feature parity for seamless migration.
 
-<em><strong>Technologies:</strong> Business/Requirements Analysis, Documentation, Enterprise Architect, UML, Java, Spring, Tomcat, JSON, REST, Swing, Agile, Scrum</em>
+<em><strong>Technologies:</strong> Business/Requirements Analysis, Documentation, Enterprise Architect, UML, Java, Spring, Tomcat, JSON, REST, Swing, Git, Agile, Scrum</em>
 
 <hgroup>
     <h3>iOCO Open Digital Integrator <small>South Africa</small></h3>
@@ -93,7 +93,7 @@ date: 2025-05-14
 - Architected and developed high-throughput messaging and authentication microservices for clients like MTN, ABSA, Discovery Bank, and others.
 - Delivered solutions for document rendering, customer notifications, and real-time payment processing.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, Java EE / Jakarta EE, JBoss EAP, WebLogic Application Server, Quarkus, JPA, Oracle DB, Microsoft SQL Server, Apache Kafka, JMS, JUnit, Jenkins CI, Docker, Docker Enterprise, Keycloak / RedHat SSO, Microservices, JSF, PDF, iText 7.0, Agile, Scrum</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, Java EE / Jakarta EE, JBoss EAP, WebLogic Application Server, Quarkus, JPA, Oracle DB, Microsoft SQL Server, Apache Kafka, JMS, JUnit, Jenkins CI, Docker, Docker Enterprise, Keycloak / RedHat SSO, Microservices, JSF, PDF, iText 7.0, Git, Agile, Scrum</em>
 
 <hgroup>
     <h3>South African Police Service <small>South Africa</small></h3>
@@ -105,7 +105,7 @@ date: 2025-05-14
 - Led requirements analysis, design, and development for PCEM system, including a custom rules engine.
 - Managed back-end, middleware, and front-end development, and system architecture.
 
-<em><strong>Technologies:</strong> Java, Java EE / Jakarta EE, IBM WebSpere Apllication Server (WAS), Oracle WebLogic Application Server, Oracle DB, JPA, JUnit, SOAP Web Services, JBoss Drools, UML</em>
+<em><strong>Technologies:</strong> Java, Java EE / Jakarta EE, IBM WebSpere Apllication Server (WAS), Oracle WebLogic Application Server, Oracle DB, JPA, JUnit, SOAP Web Services, JBoss Drools, BPMN, UML, Git, Agile, Scrum</em>
 
 <hgroup>
     <h3>Standard Bank - Corporate and Investment Banking <small>South Africa</small></h3>
