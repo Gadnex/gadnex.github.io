@@ -36,7 +36,7 @@ date: 2025-06-18
 - Developed the Netting Administration system for high-value inter-company payments to save clients money on transaction fees and FX conversions.
 - Collaborated in an agile team, sharing responsibilities for testing, deployment, and DevOps pipeline configuration.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, JPA, Hibernate, Liquibase, MSSQL, JMS, Apache Kafka, JUnit, BDD, TypeScript, JavaScript, Lit, Cypress, Docker, Kubernetes, RedHat Openshift, Azure DevOps, Git, Maven, Agile, Scrum</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, Spring Security, JSON, REST, JPA, Hibernate, Liquibase, MSSQL, JMS, Apache Kafka, JUnit, BDD, TypeScript, JavaScript, Lit, Cypress, Docker, Kubernetes, RedHat Openshift, Azure DevOps, Git, Maven, Agile, Scrum</em>
 
 <hgroup>
     <h3>De Volksbank <small>via Eonics</small></h3>
@@ -47,7 +47,7 @@ date: 2025-06-18
 - Built APIs for the distribution partner administration system, enabling flexible management of sales channels.
 - Deployed microservices on OpenShift with Azure DevOps pipelines and Argo CD.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, OpenAPI/Swagger, JPA, Hibernate, Liquibase, PostgreSQL, JUnit, Microservices, Azure DevOps, Git, Maven, Argo CD, Docker, Kubernetes, RedHat Openshift, Agile, Scrum</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, Spring Security, SAML, JSON, REST, OpenAPI/Swagger, JPA, Hibernate, Liquibase, PostgreSQL, JUnit, Microservices, Azure DevOps, Git, Maven, Argo CD, Docker, Kubernetes, RedHat Openshift, Agile, Scrum</em>
 
 <hgroup>
     <h3>Uitvoeringsinstituut Werknemersverzekeringen (UWV) <small>via Capgemini</small></h3>
@@ -58,7 +58,7 @@ date: 2025-06-18
 - Developed integration services between UWV and IND using SOAP, REST, and JMS queues.
 - Joined to help the team recover from missed deadlines, successfully addressing agile adoption and communication challenges. By project end, the team was ahead of schedule compared to other teams.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, OpenAPI/Swagger, IBM MQ, JMS, JUnit, XL Deploy, Azure DevOps, Git, Maven, Docker, Agile, Scrum</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, Spring Security, JSON, REST, OpenAPI/Swagger, IBM MQ, JMS, JUnit, XL Deploy, Azure DevOps, Git, Maven, Docker, Agile, Scrum</em>
 
 <hgroup>
     <h3>Logius <small>via Capgemini</small></h3>
@@ -69,7 +69,7 @@ date: 2025-06-18
 - Led the architecture for migrating the Digipoort system to a microservices architecture with comprehensive observability.
 - Developed a proof of concept for traceability across distributed systems.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, JSON, REST, OpenAPI/Swagger, Prometheus, Grafana, Jaeger Tracing, ElasticSearch, Kibana, Apache Kafka, MinIO, Docker, Rancher, Kubernetes, Microservices, Git, Maven, GitLab, Agile, Scrum, SAFe</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, Spring Security, JSON, REST, OpenAPI/Swagger, Prometheus, Grafana, Jaeger Tracing, ElasticSearch, Kibana, Apache Kafka, MinIO, Docker, Rancher, Kubernetes, Microservices, Git, Maven, GitLab, Agile, Scrum, SAFe</em>
 
 <div class="page-break-after"></div>
 
@@ -93,7 +93,7 @@ date: 2025-06-18
 - Architected and developed high-throughput messaging and authentication microservices for clients like MTN, ABSA, Discovery Bank, and others.
 - Delivered solutions for document rendering, customer notifications, and real-time payment processing.
 
-<em><strong>Technologies:</strong> Java, Spring Boot, Java EE / Jakarta EE, JBoss EAP, WebLogic Application Server, Quarkus, JPA, Hibernate, REST, OpenAPI/Swagger, Oracle DB, Microsoft SQL Server, Apache Cassandra, Apache Kafka, JMS, JUnit, Cucumber, JMeter, Jenkins CI, Docker, Docker Enterprise, Keycloak / RedHat SSO, Microservices, JSF, PDF, iText 7.0, Git, Maven, Nexus, Artifactory, Agile, Scrum</em>
+<em><strong>Technologies:</strong> Java, Spring Boot, Spring Security, Java EE / Jakarta EE, JBoss EAP, WebLogic Application Server, Quarkus, JPA, Hibernate, REST, OpenAPI/Swagger, Oracle DB, Microsoft SQL Server, Apache Cassandra, Apache Kafka, JMS, JUnit, Cucumber, JMeter, Jenkins CI, Docker, Docker Enterprise, Keycloak / RedHat SSO, OIDC, OAuth2, SAML, Microservices, JSF, PDF, iText 7.0, Git, Maven, Nexus, Artifactory, Agile, Scrum</em>
 
 <hgroup>
     <h3>South African Police Service <small>South Africa</small></h3>

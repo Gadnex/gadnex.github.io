@@ -25,7 +25,7 @@ date: 2025-06-18
 - 7+ jaar ervaring in front-end development (HTML, CSS, JavaScript).
 - 2+ jaar ervaring met CI/CD-pipelines, voornamelijk Jenkins en GitHub Actions.
 
-## Arbeidsgeschiedenis
+## Werkervaring
 
 <hgroup>
     <h3>Bank Mendes Gans <small>via Eonics</small></h3>
@@ -36,7 +36,7 @@ date: 2025-06-18
 - Ontwikkelde het Netting Administration-systeem voor hoogwaardige betalingen tussen bedrijven om klanten geld te besparen op transactiekosten en valutaconversies.
 - Werkte samen in een agile team en deelde verantwoordelijkheden voor testen, implementatie en DevOps-pipelineconfiguratie.
 
-<em><strong>Technologieën:</strong> Java, Spring Boot, JSON, REST, JPA, Hibernate, Liquibase, MSSQL, JMS, Apache Kafka, JUnit, BDD, TypeScript, JavaScript, Lit, Cypress, Docker, Kubernetes, RedHat Openshift, Azure DevOps, Git, Maven, Agile, Scrum</em>
+<em><strong>Technologieën:</strong> Java, Spring Boot, Spring Security, JSON, REST, JPA, Hibernate, Liquibase, MSSQL, JMS, Apache Kafka, JUnit, BDD, TypeScript, JavaScript, Lit, Cypress, Docker, Kubernetes, RedHat Openshift, Azure DevOps, Git, Maven, Agile, Scrum</em>
 
 <hgroup>
     <h3>De Volksbank <small>via Eonics</small></h3>
@@ -47,7 +47,7 @@ date: 2025-06-18
 - API's gebouwd voor het beheersysteem van distributiepartners, waardoor flexibel beheer van verkoopkanalen mogelijk werd.
 - Microservices geïmplementeerd op OpenShift met Azure DevOps-pipelines en Argo CD.
 
-<em><strong>Technologieën:</strong> Java, Spring Boot, JSON, REST, OpenAPI/Swagger, JPA, Hibernate, Liquibase, PostgreSQL, JUnit, Microservices, Azure DevOps, Git, Maven, Argo CD, Docker, Kubernetes, RedHat Openshift, Agile, Scrum</em>
+<em><strong>Technologieën:</strong> Java, Spring Boot, Spring Security, SAML, JSON, REST, OpenAPI/Swagger, JPA, Hibernate, Liquibase, PostgreSQL, JUnit, Microservices, Azure DevOps, Git, Maven, Argo CD, Docker, Kubernetes, RedHat Openshift, Agile, Scrum</em>
 
 <hgroup>
     <h3>Uitvoeringsinstituut Werknemersverzekeringen (UWV) <small>via Capgemini</small></h3>
@@ -58,7 +58,7 @@ date: 2025-06-18
 - Ontwikkelde integratieservices tussen UWV en de IND met behulp van SOAP-, REST- en JMS-queues.
 - Toegetreden om het team te helpen bij het herstellen van gemiste deadlines en het succesvol aanpakken van uitdagingen op het gebied van agile implementatie en communicatie. Aan het einde van het project liep het team voor op schema in vergelijking met andere teams.
 
-<em><strong>Technologieën:</strong> Java, Spring Boot, JSON, REST, OpenAPI/Swagger, IBM MQ, JMS, JUnit, XL Deploy, Azure DevOps, Git, Maven, Docker, Agile, Scrum</em>
+<em><strong>Technologieën:</strong> Java, Spring Boot, Spring Security, JSON, REST, OpenAPI/Swagger, IBM MQ, JMS, JUnit, XL Deploy, Azure DevOps, Git, Maven, Docker, Agile, Scrum</em>
 
 <div class="page-break-after"></div>
 
@@ -71,7 +71,7 @@ date: 2025-06-18
 - Leidde de architectuur voor de migratie van het Digipoort-systeem naar een microservicesarchitectuur met uitgebreide observatiemogelijkheden.
 - Ontwikkelde een proof-of-concept voor traceerbaarheid in gedistribueerde systemen.
 
-<em><strong>Technologieën:</strong> Java, Spring Boot, JSON, REST, OpenAPI/Swagger, Prometheus, Grafana, Jaeger Tracing, ElasticSearch, Kibana, Apache Kafka, MinIO, Docker, Rancher, Kubernetes, Microservices, Git, Maven, GitLab, Agile, Scrum, SAFe</em>
+<em><strong>Technologieën:</strong> Java, Spring Boot, Spring Security, JSON, REST, OpenAPI/Swagger, Prometheus, Grafana, Jaeger Tracing, ElasticSearch, Kibana, Apache Kafka, MinIO, Docker, Rancher, Kubernetes, Microservices, Git, Maven, GitLab, Agile, Scrum, SAFe</em>
 
 <hgroup>
     <h3>Kühne + Nagel <small>via Capgemini</small></h3>
@@ -93,7 +93,7 @@ date: 2025-06-18
 - Architectuur en ontwikkeling van high-throughput berichten- en authenticatiemicroservices voor klanten zoals MTN, ABSA, Discovery Bank en anderen.
 - Oplossingen geleverd voor documentcreatie, klantmeldingen en realtime betalingsverwerking.
 
-<em><strong>Technologieën:</strong> Java, Spring Boot, Java EE / Jakarta EE, JBoss EAP, WebLogic Application Server, Quarkus, JPA, Hibernate, REST, OpenAPI/Swagger, Oracle DB, Microsoft SQL Server, Apache Cassandra, Apache Kafka, JMS, JUnit, Cucumber, JMeter, Jenkins CI, Docker, Docker Enterprise, Keycloak / RedHat SSO, Microservices, JSF, PDF, iText 7.0, Git, Maven, Nexus, Artifactory, Agile, Scrum</em>
+<em><strong>Technologieën:</strong> Java, Spring Boot, Spring Security, Java EE / Jakarta EE, JBoss EAP, WebLogic Application Server, Quarkus, JPA, Hibernate, REST, OpenAPI/Swagger, Oracle DB, Microsoft SQL Server, Apache Cassandra, Apache Kafka, JMS, JUnit, Cucumber, JMeter, Jenkins CI, Docker, Docker Enterprise, Keycloak / RedHat SSO, OIDC, OAuth2, SAML, Microservices, JSF, PDF, iText 7.0, Git, Maven, Nexus, Artifactory, Agile, Scrum</em>
 
 <hgroup>
     <h3>South African Police Service <small>Zuid-Afrika</small></h3>
@@ -259,7 +259,7 @@ Dit project is een aangepast Spring Boot-starterproject met automatische configu
 
 - Afrikaans (Moedertaal)
 - Engels (Vloeiend)
-- Nederlands (Tussenliggend)
+- Nederlands (Vloeiend)
 
 ## Hobby's
 
