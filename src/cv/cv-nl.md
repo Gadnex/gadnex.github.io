@@ -123,6 +123,8 @@ Analyseerde bestaande B2C file formats voor de onboarding van klanten, ondersteu
 
 Voerde een herstructurering uit van de bedrijfsprocessen voor de administratie van autoverzekeringen en analyseerde de vereisten voor een betalingsgateway om EFT-betalingen voor claims te faciliteren.
 
+<div class="page-break-after"></div>
+
 <hgroup>
     <h3>Aesir <small>Zuid-Afrika</small></h3>
     <div>Bedrijfsanalist</div>
@@ -215,8 +217,6 @@ Heeft gewerkt aan klantgerichte webapplicaties voor grote merken zoals ABSA, Rob
 - Projecten met ACSA en internationale luchthavens.
 
 <em><strong>Technologieën:</strong> ASP, HTML, CSS, Visual Basic 6, Perl, JavaScript, VBScript, MSSQL Server</em>
-
-<div class="page-break-after"></div> 
 
 <hgroup>
     <h3>Africon Engineering <small>Zuid-Afrika</small></h3>
