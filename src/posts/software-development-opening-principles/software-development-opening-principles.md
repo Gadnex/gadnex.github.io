@@ -1,6 +1,6 @@
 ---
 title: Software Development Opening Principles
-date: 2025-06-19
+date: 2025-06-20
 "tags": [
   "Business Analysis", "Requirements Analysis", "Agile"
 ]
