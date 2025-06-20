@@ -562,6 +562,10 @@
             padding: var(--size-2);
         }
 
+        :where(tbody th) {
+            text-align: end;
+        }
+
         :where(table:not(:has(thead)) th) {
             text-align: end;
         }
