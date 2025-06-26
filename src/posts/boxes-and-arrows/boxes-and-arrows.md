@@ -1,5 +1,6 @@
 ---
 title: Boxes and Arrows
+description: A blog post to explain how the architecture of a software system can be graphically represented as simple boxes containing text and arrows between boxes to show a dependency between boxes.
 date: 2025-04-01
 "tags": [
   "boxes-and-arrows"

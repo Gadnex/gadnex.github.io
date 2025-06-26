@@ -1,6 +1,7 @@
 ---
 layout: base.liquid
 title: CV
+description: CV of William Gadney
 date: 2025-05-14
 ---
 

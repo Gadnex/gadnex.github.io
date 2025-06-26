@@ -1,5 +1,6 @@
 ---
 title: Why our BDD tests are slow
+description: A blog post to explain what Behaviour Driven Development (BDD) is and how to use it in a way that our automated tests are performant.
 date: 2025-03-24
 ---
 

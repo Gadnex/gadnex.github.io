@@ -1,5 +1,6 @@
 ---
 title: Understanding story points
+description: This blog post critiques the common misuse of story points in Agile software development, arguing that teams often treat them as fixed time estimates rather than relative effort measures, which undermines their purpose; it highlights pitfalls like inconsistent estimation practices and suggests that simply counting user stories—as advocated by the &#35;NoEstimates movement—can be more effective for project forecasting.not gaining the intended benefit of story points.
 date: 2025-06-23
 "tags": [
   "Agile", "Project Management", "Planning"
@@ -134,6 +135,6 @@ In my [previous blog post](/posts/software-development-opening-principles/) I de
 
 ## Conclusion
 
-In this blog post I described what storypoints are and how they are intended to be used. I also explained how teams often misunderstand story points and thus not gaining the intended benefit of story points.
+In this blog post I described what story points are and how they are intended to be used. I also explained how teams often misunderstand story points and thus not gaining the intended benefit of story points.
 
 I also gave some practical suggestions how to avoid common problems of story points and maybe even avoiding story points completely.

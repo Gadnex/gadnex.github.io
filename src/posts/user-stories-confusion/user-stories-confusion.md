@@ -1,5 +1,6 @@
 ---
 title: User Story Confusion
+description: A blog post to explain what User Stories are and why it is important to write good user stories.
 date: 2025-04-04
 "tags": [
   "user-stories", "agile"

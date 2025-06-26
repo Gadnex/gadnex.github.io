@@ -1,5 +1,6 @@
 ---
 title: Software Design and Architecture
+description: A blog post to explain at a very high level what Software Design and Architecture is. It will also attempt to explain the difference between the two concepts.
 date: 2025-03-26
 "tags": [
   "boxes-and-arrows"

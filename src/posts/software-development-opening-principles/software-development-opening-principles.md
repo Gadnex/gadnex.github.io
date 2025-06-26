@@ -1,5 +1,6 @@
 ---
 title: Software Development Opening Principles
+description: A blog post to explain important software development principles when starting a development project and leading to a successful outcome.
 date: 2025-06-20
 "tags": [
   "Business Analysis", "Requirements Analysis", "Agile"

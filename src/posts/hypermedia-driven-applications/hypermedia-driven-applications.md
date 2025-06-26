@@ -1,5 +1,6 @@
 ---
 title: Hypermedia Driven Applications
+description: A blog post to explain what Hypermedia Driven Application (HDA) are and put them in the context of the history of web development. It also shows examples of 2 popular HDA libraries/frameworks with a discussion of the pros and cons.
 date: 2025-05-25
 "tags": [
   "hypermedia", "front-end", "HTMX", "Datastar"

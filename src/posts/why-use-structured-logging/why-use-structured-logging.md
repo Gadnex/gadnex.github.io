@@ -1,5 +1,6 @@
 ---
 title: Why use Structured Logging
+description: A blog post explaining what Structured Logging is and when we should be using it.
 date: 2025-04-22
 "tags": [
   "development", "operations", "devops"

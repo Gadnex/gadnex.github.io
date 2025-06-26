@@ -1,6 +1,7 @@
 ---
 layout: base.liquid
 title: CV Dutch
+description: CV of William Gadney in Dutch
 date: 2025-06-18
 ---
 

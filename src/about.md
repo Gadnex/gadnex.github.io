@@ -1,6 +1,7 @@
 ---
 layout: base.liquid
 title: About
+description: A short description of William Gadney
 date: 2025-05-11
 ---
 
