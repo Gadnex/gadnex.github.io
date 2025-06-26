@@ -9,7 +9,6 @@ export default async function (eleventyConfig) {
         "html",
         "md",
         "jpg",
-        "jpeg",
         "png",
         "svg"
     ]);
