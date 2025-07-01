@@ -89,7 +89,7 @@ Without being able to rely on the assumption that story points are relative, we 
 
 ## Assigning story points to all backlog items
 
-In the section example above we stated that there are 500 story points in the backlog. How could we know this if we do not have some confidence that we have identified all of the user stories that still needs to be completed. We also could not know this if all of the backlog items have not been estimated and assigned story points.
+In the example above we stated that there are 500 story points in the backlog. How could we know this if we do not have some confidence that we have identified all of the user stories that still needs to be completed. We also could not know this if all of the backlog items have not been estimated and assigned story points.
 
 Poker planning meetings take a lot of time. It is not uncommon to spend an hour to estimate 5 stories. If we have hundreds of items in our backlog, estimating them all up front is not feasible. Thus calculations as per the previous example would not be possible if the backlog is not complete and short.
 
@@ -125,7 +125,7 @@ It is thus important to identify all user stories on functional level early in t
 
 Considering what was said before, things are looking very grim. But there is some hope. Vasco Duarte explained in his book [#NoEstimates](https://oikosofyseries.com/) that estimating user stories in story points is not required. This gave birth to the #NoEstimates movement.
 
-In short, Vasco Duarte studied data from around 2000 agile projects that had been completed. This data contained all the stories and their estimated story points. He used the story points and team velocities (story points per sprint) to predict the project end date. He also just counted the number of stories completed and the team velocity (stories per sprint) and predicted the project end date. This is equivalent to saying that all stories are 1 story point. He also knew that actual end dates of the projects. He could determine for every project which estimation method produced the more accurate end date. He found that just counting the number of stories led to more accurate predictions than estimating story points.
+In short, Vasco Duarte studied data from around 2000 agile projects that had been completed. This data contained all the stories and their estimated story points. He used the story points and team velocities (story points per sprint) to predict the project end date. He also just counted the number of stories completed and the team velocity (stories per sprint) and predicted the project end date. This is equivalent to saying that all stories are 1 story point. He also knew the actual end dates of the projects. He could determine for every project which estimation method produced the more accurate end date. He found that just counting the number of stories led to more accurate predictions than estimating story points.
 
 Vasco suggests that teams do not spend time estimating story points, but rather investing this time in identifying and refining user stories.
 
