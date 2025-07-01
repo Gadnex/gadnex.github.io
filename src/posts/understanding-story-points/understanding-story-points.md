@@ -9,9 +9,9 @@ date: 2025-06-23
 
 ## Introduction
 
-When developing software, there is always someone paying the bills and they want to know how long will it take and how much will it cost. In the past software developers were asked to work create breakdown structures and then estimating work items. This never led to accurate answers to the above questions.
+When developing software, there is always someone paying the bills and they want to know how long will it take and how much will it cost. In the past software developers were asked to create work breakdown structures and then estimating work items. This never led to accurate answers to the above questions.
 
-Then agile entered with a different approach. Focus on delivering value in short incremental iterations instead of trying to predict the future. But these questions remained and story points were invented as a proxy for time based estimates. I fear that even today, people paying the bills will convert story points to time units in an attempt to answer the same questions. I don't think the answers are more accurate today.
+Then agile entered with a different approach. Focus on delivering value in short incremental iterations instead of trying to predict the future. But these questions remained and story points were invented as a proxy for time based estimates.
 
 In this blog post I will unpack my thoughts about story points and highlight some common pitfalls that I have identified.
 
