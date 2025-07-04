@@ -10,7 +10,8 @@ export default async function (eleventyConfig) {
         "md",
         "jpg",
         "png",
-        "svg"
+        "svg",
+        "ico"
     ]);
 
     eleventyConfig.addPassthroughCopy("src/*/*.css");
