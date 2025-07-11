@@ -1,5 +1,5 @@
-import MarkdownIt from "markdown-it";
 import Shiki from "@shikijs/markdown-it";
+import MarkdownIt from "markdown-it";
 
 export default async function (eleventyConfig) {
 
@@ -10,11 +10,12 @@ export default async function (eleventyConfig) {
         "md",
         "jpg",
         "png",
-        "svg"
+        "svg",
+        "ico"
     ]);
 
-    eleventyConfig.addPassthroughCopy("src/*.css");
-    eleventyConfig.addPassthroughCopy("src/*.js");
+    eleventyConfig.addPassthroughCopy("src/*/*.css");
+    eleventyConfig.addPassthroughCopy("src/*/*.js");
 
     const options = {
         html: true,
@@ -23,15 +24,14 @@ export default async function (eleventyConfig) {
     };
 
     let markdownLib = MarkdownIt(options)
-      .use(
-        await Shiki({
-            // theme: "rose-pine-moon",
-            themes: {
-                light: 'min-light',
-                dark: 'nord',
-            }
-        }),
-      );
+        .use(
+            await Shiki({
+                themes: {
+                    light: 'github-dark',
+                    dark: 'github-dark',
+                }
+            }),
+        );
 
     eleventyConfig.setLibrary("md", markdownLib);
 };

@@ -1,6 +1,7 @@
 ---
 layout: base.liquid
 title: CV
+description: CV of William Gadney
 date: 2025-05-14
 ---
 
@@ -10,28 +11,30 @@ date: 2025-05-14
 
 ## Contact
 
-<table>
-    <tr>
-        <th>Phone:</th>
-        <td>+31 6 8485 4382</td>
-    </tr>
-    <tr>
-        <th>Email:</th>
-        <td>gadnex@gmail.com</td>
-    </tr>
-    <tr>
-        <th>Website:</th>
-        <td><a href="https://gadnex.github.io/">https://gadnex.github.io/</a></td>
-    </tr>
-    <tr>
-        <th>GitHub:</th>
-        <td><a href="https://github.com/Gadnex">https://github.com/Gadnex</a></td>
-    </tr>
-    <tr>
-        <th>LinkedIn:</th>
-        <td><a href="https://www.linkedin.com/in/william-gadney-003580119/">https://www.linkedin.com/in/william-gadney-003580119/</a></td>
-    </tr>
-</table>
+<div class="overflow-x">
+    <table>
+        <tr>
+            <th>Phone:</th>
+            <td>+31 6 8485 4382</td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td>gadnex@gmail.com</td>
+        </tr>
+        <tr>
+            <th>Website:</th>
+            <td><a href="https://gadnex.github.io/">https://gadnex.github.io/</a></td>
+        </tr>
+        <tr>
+            <th>GitHub:</th>
+            <td><a href="https://github.com/Gadnex">https://github.com/Gadnex</a></td>
+        </tr>
+        <tr>
+            <th>LinkedIn:</th>
+            <td><a href="https://www.linkedin.com/in/william-gadney-003580119/">https://www.linkedin.com/in/william-gadney-003580119/</a></td>
+        </tr>
+    </table>
+</div>
 
 ## Profile
 

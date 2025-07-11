@@ -1,5 +1,6 @@
 ---
 title: Hypermedia Driven Applications
+description: A blog post to explain what Hypermedia Driven Application (HDA) are and put them in the context of the history of web development. It also shows examples of 2 popular HDA libraries/frameworks with a discussion of the pros and cons.
 date: 2025-05-25
 "tags": [
   "hypermedia", "front-end", "HTMX", "Datastar"
@@ -70,7 +71,7 @@ Finally we have an **&lt;a&gt;** tag styled like a button to refresh the current
     </label>
 </p>
 
-<div class="wrapper">
+<div class="overflow-x">
 <table id="data-table">
     <thead>
     <tr>
@@ -155,9 +156,7 @@ console.error('Error fetching:', error);
 }
 </script>
 <script src="https://unpkg.com/htmx.org@2.0.4"></script>
-<script type="module"
-        src="/datastar-v1.0.0-RC8.js">
-</script>
+<script type="module" src="/js/datastar.js"></script>
 
 ### Instructions
 

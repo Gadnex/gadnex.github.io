@@ -1,6 +1,7 @@
 ---
 layout: base.liquid
 title: About
+description: A short description of William Gadney
 date: 2025-05-11
 ---
 
@@ -22,7 +23,7 @@ This project is a custom Spring Boot starter project with auto configuration. It
 
 The goal of this starter is to automatically inject an instance of the interface gg.jte.support.LocalizationSupport into all JTE templates without any additional code in the Spring MVC controllers.
 
-Talks are underway to merge this project into the official JTE Spring Boot starter project. It is also planned to be used in an upcoming [Spring.io 2025 talk](https://2025.springio.net/sessions/bring-back-the-joy-in-web-development-with-htmx-and-hypermedia-driven-applications/).
+Talks are underway to merge this project into the official JTE Spring Boot starter project.
 
 ### [jte-datastar-spring-boot-starter](https://github.com/Gadnex/jte-datastar-spring-boot-starter)
 
