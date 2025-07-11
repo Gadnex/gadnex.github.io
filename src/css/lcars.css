@@ -1,15 +1,10 @@
 /* LCARS */
 
-@media screen {
+@media screen and (width>=480px) {
     :where(html) {
         --brand-color: light-dark(var(--orange-9), var(--orange-8));
         --brand-color-contrast: light-dark(var(--orange-6), var(--orange-4));
         --brand-color-accent: light-dark(var(--orange-8), var(--orange-7));
-    }
-}
-
-@media screen and (width>=480px) {
-    :where(html) {
         --lcars-border-radius: var(--size-px-11);
         --lcars-inner-border-radius: var(--size-px-8);
         --lcars-border-block-width: var(--size-px-4);
@@ -94,8 +89,10 @@
     }
 
     select>button {
-        color: var(--color);
+        font-size: var(--font-size-1);
+        font-weight: var(--font-weight-2);
         background-color: transparent;
+        color: var(--color);
         border: none;
         padding: 0;
         min-width: 0;
