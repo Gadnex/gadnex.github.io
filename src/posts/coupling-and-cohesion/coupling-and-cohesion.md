@@ -19,7 +19,7 @@ This blog post will attempt to answer those questions and provide you with some 
 
 Image you are developing a large complex software system with 100K+ lines of code and you have all the code in a single file. If you want to make a change to the code, it will be very hard to find the correct lines of code to change in such a large file.
 
-Firstly you could make use of your programming language's ability to make code references across files and plit the single file into multiple files. For example from **my_application** to **my_application_1**, **my_application_2** etc. This won't improve matters much as you would need to know which file to open. So, you would need to give files more descriptive names to give you a good idea what code they may contain.
+Firstly you could make use of your programming language's ability to make code references across files and split the single file into multiple files. For example from **my_application** to **my_application_1**, **my_application_2** etc. This won't improve matters much as you would need to know which file to open. So, you would need to give files more descriptive names to give you a good idea what code they may contain.
 
 But now if you have a lot of files, each with a small number of lines of code, you run into the same problem. Which file should I open? The solution to this issue would be to split the files into folders with descriptive names so you know which folder in the list is likely to contain the file you are looking for.
 
@@ -53,7 +53,7 @@ Cohesion refers to dependencies between files in the same folder and to sub-fold
 
 ## Two common code structuring approaches
 
-In this section I would like to compare two common code structuring approaches in terms of coupling and cohesion. These two code structuring approaches are **Package by layer** and **Package by function**. For this example I will make use of a Scrum management system as many software developers are familier with Scrum.
+In this section I would like to compare two common code structuring approaches in terms of coupling and cohesion. These two code structuring approaches are **Package by layer** and **Package by function**. For this example, I will make use of a Scrum management system as many software developers are familier with Scrum.
 
 ### Package by layer
 
@@ -68,7 +68,7 @@ A top level folder would be created for every architectural layer and all files 
 
 ![Package by layer](package-by-layer.svg)
 
-Here we will see that for every database table we have one code file per layer and the dependencies between layers go from **Controller** to **Service** to **Repository** to **Entity**. As the number of database tables grows, the number of dependencies between these packages (folders) grows as well, leading to a very tighly coupled relationship between these layers.
+Here we will see that for every database table we have one code file per layer and the dependencies between layers go from **Controller** to **Service** to **Repository** to **Entity**. We also have dependencies from the **Controller** to **Entity** and from **Service** to **Entity** as all the layers are dependent on the **Entity**. As the number of database tables grows, the number of dependencies between these packages (folders) grows as well. For every additional database table you will get 5 new dependencies between the layers. This leads to a very tighly coupled relationship between these layers.
 
 As database tables in a relational database are related to each other in the form of foreign key relationships, it means that our database entity classes in the **Entity** package (folder) have dependencies to one another. This makes this package quite cohesive.
 
@@ -108,7 +108,7 @@ In contrast, the **Package by layer** packages cut accross multiple functional a
 
 Microservices fit well with the 2<sup>nd</sup> C of the C4 model, nameley a [Container](https://c4model.com/abstractions/container). A container refers to a separately deployable part of an application.
 
-If you start out with a well structured monolith with clearly defines modules in the form of **Package by function** packages. You can then document these packages as a C4 model component diagram to understand the dependencies between the packages. Groups of packages which are more tightly couples can then be split out into a microservices. The C4 model would also be updated to refelct that these components have been moved to a different container. This may avoid the pitfall of prematurely picking microservice boundaries before the dependencies are properly understood.
+If you start out with a well structured monolith with clearly defined modules in the form of **Package by function** packages. You can then document these packages as a C4 model component diagram to understand the dependencies between the packages. Groups of packages which are more tightly couples can then be split out into microservices. The C4 model would also be updated to refelct that these components have been moved to a different container. This may avoid the pitfall of prematurely picking microservice boundaries before the dependencies are properly understood.
 
 ## Conclusion
 
