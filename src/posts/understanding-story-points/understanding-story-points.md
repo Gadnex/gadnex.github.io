@@ -26,7 +26,7 @@ Story points are estimates of effort. The article from the quote above states th
 
 In practice I find that most teams do use story points as a unit of time. But teams do not make story points relative.
 
-Image a team sitting in a poker planning session, discussing a story for a few minutes and then deciding to vote on the number of story points. What a developer might do is estimate the number of hours or days and then conversing this estimate to story points using some loosely defined rules. For example:
+Image a team sitting in a poker planning session, discussing a story for a few minutes and then deciding to vote on the number of story points. What a developer might do is estimate the number of hours or days and then converting this estimate to story points using some loosely defined rules. For example:
 
 <table>
     <thead>
