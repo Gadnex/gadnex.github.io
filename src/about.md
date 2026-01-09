@@ -30,3 +30,11 @@ Talks are underway to merge this project into the official JTE Spring Boot start
 This project is a custom Spring Boot starter project with auto configuration.
 
 It is used to render HTML fragments using the Java Template Engine (JTE) and emitting the HTML as Datastar MergeFragments Server Sent Events (SSE). It also emits the other Datastar event types.
+
+## Contact details
+
+- Email: **gadnex@gmail.com**
+- Phone: **+31 6 8485 4382**
+- Website: https://gadnex.github.io/
+- GitHub: https://github.com/Gadnex"
+- LinkedIn: https://www.linkedin.com/in/william-gadney-003580119/
