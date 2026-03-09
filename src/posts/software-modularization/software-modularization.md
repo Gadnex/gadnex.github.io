@@ -117,7 +117,7 @@ It is a good idea to properly document these events to make them visible.
 
 ## Monoliths and Microservices
 
-Software modularisation is applicable to both monolithic and microservice architectures. It is a design choice how software modules are deplayed as a monolith or as separate microservices.
+Software modularisation is applicable to both monolithic and microservice architectures. It is a design choice how software modules are deployed as a monolith or as separate microservices.
 
 ![Image of a tweet from Simon Brown about moliliths and microservices](monoliths_and_microservices.png)
 
